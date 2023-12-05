@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Tiro+Devanagari+Sanskrit&display=swap');
+/* start css: employe page */
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #f5f5f5;   
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* form */
+.form {
+    background-color: white;
+    width: 800px;
+    padding: 25px;
+    margin: 18px auto 0;
+    box-shadow: 3px 5px 10px rgba(71, 115, 64, 0.3);
+    border-radius: 10px;
+}
+
+/* title */
+.intro {
+    margin-bottom: 20px;
+}
+
+.form h1 {
+    background-color: #fcfcfc;
+    color: black;
+    font-size: 30px;
+    padding: 8px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+
+/* animated line */
+.form h1::before {
+    content: '';
+    position: absolute;
+    width:  100px;
+    height: 3px;
+    /* background-color: rgba(209, 43, 43, 0.847); */
+    background-color: #51a773;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 45px;
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        width: 100px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+
+span {
+    color: #51a773;
+}
+
+
+/* subsection title */
+.form h4 {
+    font-size: 18px;
+    padding-bottom: 8px;
+    color: #51a773;
+}
+
+
+/* inputs */
+.input-group {
+    margin-bottom: 8px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+}
+
+.input-box {
+    width: 100%;
+    margin-right: 12px;
+    position: relative;
+}
+
+.input-box:last-child {
+    margin-right: 0;
+}
+
+input::placeholder {
+    font-size: 15px;
+}
+
+.input-box .name {
+    padding: 14px 10px 14px 50px;
+    width: 100%;
+    background-color: #fcfcfc;
+    border: 1px solid #0003;
+    outline: none;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border-radius: 3px;
+    color: #333;
+}
+
+.input-box .name:focus {
+    box-shadow: 0 0 2px 1px #51a773;
+}
+
+/* icons */
+.input-box .bx {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+    color: #333;
+    background-color: #f1f1f1;
+    border-radius: 2px 0 0 2px;
+    transition: 0.3s;
+    font-size: 20px;
+    pointer-events: none;
+    border: 1px solid #0003;
+    border-right: none;
+}
+
+.input-box .name:focus+ .bx {
+    background-color: #51a773;
+    color: white;
+    border: 1px solid #51a773;
+    transition: 0.4s;
+}
+
+
+/* submit button */
+.input-box button {
+    width: 100%;
+    height: 40px;
+    background-color: #51a773;
+    color: white;
+    border: none;
+    border-right: 4px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.input-box button:hover {
+    cursor: pointer;
+    background-color: #417656;
+}
+
+
+/* navigation buttons  */
+.navigation {
+    display: flex;
+    color: black;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.back {
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 170px;
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgba(210, 210, 210, 0.555);
+    cursor: pointer;
+    font-weight: 500;
+    align-items: center;
+    padding: 10px 24px;
+    box-shadow: 1px 2px 0px rgb(104, 103, 103);
+}
+
+.add {
+    background-color: #64cddbc7;
+}
+
+.modify {
+    background-color: #E7C27D;
+}
+
+.show {
+    background-color: #80c59b;
+}
+
+.show .bx{
+    margin-left: -10px;
+}
+
+.end {
+    background-color: rgb(193, 191, 191);
+}
+
+.back .bx {
+    margin-right: 10px;
+    color: white; 
+    font-size: 30px;
+}
+
+.back .text {
+    font-size: 20px;
+    color: white;
+}
+
+.back:hover{
+    background-color: #abb7b59b;
+    transform: scale(.9);
+}
+
+
+/* alert messages */
+.danger {
+    display: flex;
+}
+
+.danger p, #txt, #rib, #puissance {
+    color: rgba(209, 43, 43, 0.847);
+}
+
+.danger .num, .danger .prenom {
+    width: 255px;
+}
+
+.danger .bank {
+    width: 380px;
+}
+
+.danger .bank, .danger .rib, .danger .grade, .danger .nom, .danger .num, .danger .prenom, #txt, #rib, #puissance {
+    margin-top: -8px;
+    margin-bottom: 5px;
+}
+
+/* success message */
+.insert {
+    padding: 20px 40px;
+    min-width: 320px;
+    top:-30px; 
+    position: absolute;
+    right: 10px;
+    margin-top: 120px;
+    border-radius: 4px;
+    border-color: #badbcc;
+    border-left: 4px solid #51a773;
+    background-color: #d1e7dd;
+    animation: show_slide 1s ease forwards;
+}
+
+@keyframes show_slide {
+    0%{
+        transform: translateX(100%);
+    }
+    40%{
+        transform: translateX(-10%);
+    }
+    80%{
+        transform: translateX(-0%);
+    }
+    100%{
+        transform: translateX(-10px);  
+    }
+}
+
+.insert .bx-check, .insert .bx-info-circle {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #51a773;
+    font-size: 30px;
+}
+
+.insert .msg {
+    padding: 0 20px;
+    font-size: 18px;
+    color:#125e3a;
+}
+
+.insert .bx-x {
+    position: absolute;
+    right: 0px;
+    top: 84%;
+    transform: translateY(-50px);
+    padding: 17.2px 10px;
+    background-color: #badbcc;
+    font-size: 25px;
+    color: #125e3bbd;
+    cursor: pointer;
+}
+
+.insert .bx-x:hover {
+    background-color: rgba(64, 151, 87, 0.584);
+}
+
+/* add message */
+.add1 {
+    border-color: #badbcc;
+    border-left: 4px solid #00627a;
+    background-color: #c1f2fe; 
+}
+
+.add1 .msg {
+    padding: 0 20px;
+    font-size: 18px;
+    color:#00627a;
+}
+
+.insert .bx-info-circle {
+    color: #00627a;
+}
+
+.add1 .bx-x {
+    background-color: #00627a4d;;
+    color: #00627a;
+}
+
+.add1 .bx-x:hover {
+    background-color: #39b7d6db;
+}
+
+/* modify message */
+.modify_1 {
+    border-color: #badbcc;
+    border-left: 4px solid #c8a951;
+    background-color: #E6DBAC; 
+}
+
+.modify_1 .msg {
+    padding: 0 20px;
+    font-size: 18px;
+    color:#aa930a;
+}
+
+.modify_1 .bx-info-circle {
+    color: #aa930a;
+}
+
+.modify_1 .bx-x {
+    background-color: #e0c272af;
+    color: #aa930a;
+}
+
+.modify_1 .bx-x:hover {
+    background-color: #f1ca4a;
+}
+/* end css */
+
+
+
+
+
+
