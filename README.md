@@ -52,14 +52,14 @@ To set up this project you should install the following:
 To use the project you should do the following:
 - Add the project to **'htdocs'** folder on the xampp environment.
 - Create the database on phpmyadmin panel.
-![Example screenshot](Screenshots/mcd.png){:width="300px" height="200px"}
+![Example screenshot](Screenshots/mcd.png | width=100)
 
 ## Screenshots
 ### Home Page
-![Example screenshot](Screenshots/login.png){:width="300px" height="200px"}
+![Example screenshot](Screenshots/login.png | width=100)
 ### Dashboard 
-![Example screenshot](Screenshots/Dashboard.png){:width="300px" height="200px"}
+![Example screenshot](Screenshots/Dashboard.png | width=100)
 ### Data Management
-![Example screenshot](Screenshots/employés.png){:width="300px" height="200px"}
+![Example screenshot](Screenshots/employés.png | width=100)
 ### Document generation (after calculation)
-![Example screenshot](Screenshots/pdf1.png){:width="300px" height="200px"}
+![Example screenshot](Screenshots/pdf1.png | width=100)
