@@ -30,7 +30,13 @@ The file structure of the project is the following:
 
 
 ## Technologies Used
-[![PHP](https://skillicons.dev/icons?i=php,html,css,js,mysql,ajax,fpdf)](https://skillicons.dev)
+* PHP
+* HTML
+* CSS
+* JS
+* AJAX
+* FPDF
+* MYSQL
 
 
 ## Setup
