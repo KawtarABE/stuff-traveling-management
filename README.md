@@ -56,13 +56,13 @@ To use the project you should do the following:
 
 ## Screenshots
 ### Home Page
-<img src="Screenshots/login.png" style="width:400px; height:400px;">
+<img src="Screenshots/login.png" style="width:700px; height:700px;">
 
 ### Dashboard 
-<img src="Screenshots/Dashboard.png" style="width:400px; height:400px;">
+<img src="Screenshots/Dashboard.png" style="width:700px; height:700px;">
 
 ### Data Management
-<img src="Screenshots/employés.png" style="width:400px; height:400px;">
+<img src="Screenshots/employés.png" style="width:700px; height:400px;">
 
 ### Document generation (after calculation)
-<img src="Screenshots/pdf1.png" style="width:400px; height:400px;">
+<img src="Screenshots/pdf1.png" style="width:700px; height:400px;">
