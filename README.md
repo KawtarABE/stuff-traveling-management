@@ -56,10 +56,10 @@ To use the project you should do the following:
 
 ## Screenshots
 ### Home Page
-<img src="Screenshots/login.png" style="width:700px; height:700px;">
+<img src="Screenshots/login.png" style="width:700px; height:400px;">
 
 ### Dashboard 
-<img src="Screenshots/Dashboard.png" style="width:700px; height:700px;">
+<img src="Screenshots/Dashboard.png" style="width:700px; height:400px;">
 
 ### Data Management
 <img src="Screenshots/employés.png" style="width:700px; height:400px;">
