@@ -52,7 +52,7 @@ To set up this project you should install the following:
 To use the project you should do the following:
 - Add the project to **'htdocs'** folder on the xampp environment.
 - Create the database on phpmyadmin panel.
-<img src="Screenshots/mcd.png" style="width:400px; height:400px;">
+<img src="Screenshots/mcd.png" style="width:400px; height:500px;">
 
 ## Screenshots
 ### Home Page
