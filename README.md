@@ -44,26 +44,22 @@ The file structure of the project is the following:
 To set up this project you should install the following:
 - XAMPP (apache, mysql)
 - VSCODE (or any other IDE)
+- FPDF
+  * First download the composer from this [Link_1](https://getcomposer.org/)
+  * Second install the zip from [Link_2](http://www.fpdf.org/)
 
 ### Usage
 To use the project you should do the following:
 - Add the project to **'htdocs'** folder on the xampp environment.
 - Create the database on phpmyadmin panel.
-  * patients(**`id`**, **`email`**, **`password`**, **`first_name`**, **`last_name`**, **`sexe`**, **`date_of_birth`**)
-  * maladies(**`id_maladie`**, **`name_of_maladie`**)
-  * cathegories(**`id_cathegory`**, **`name_of_cathegory`**)
-  * patient_maladie(**`id_patient`**, **`id_maladie`**)
-  * forum(**`id`**, **`Description`**, **`Post`**, **`patient`**, **`id_categorie`**, **`statut`**, **`type`**)
-  * answers(**`id_consultation`**, **`id_doctor`**, **`answer`**)
-  * admins(**`id_admin`**, **`email`**, **`password`**, **`first_name`**, **`last_name`**)
-  * doctors(**`id_doctor`**, **`email`**, **`password`**, **`first_name`**, **`last_name`**, **`sexe`**, **`id_cathegory`**)
+![Example screenshot](Screenshots/mcd.png)
 
 ## Screenshots
 ### Home Page
-![Example screenshot](Screenshots/home.png)
-### Admin dashboard 
+![Example screenshot](Screenshots/login.png)
+### Dashboard 
 ![Example screenshot](Screenshots/Dashboard.png)
-### Blog page
-![Example screenshot](Screenshots/Blog.png)
-### Consultations page
-![Example screenshot](Screenshots/consultations.png)
+### Data Management
+![Example screenshot](Screenshots/employés.png)
+### Document generation (after calculation)
+![Example screenshot](Screenshots/pdf1.png)
